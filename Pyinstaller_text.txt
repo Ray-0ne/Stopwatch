@@ -1,0 +1,119 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+(.venv) PS C:\Users\JOSHI\Documents\Py\pythonProject> cd C:\Users\JOSHI\Documents\Py\pythonProject\AssistProject\StopWatch
+(.venv) PS C:\Users\JOSHI\Documents\Py\pythonProject\AssistProject\StopWatch> pyinstaller --onefile StopWatchQt.py
+783 INFO: PyInstaller: 6.14.1, contrib hooks: 2025.5
+784 INFO: Python: 3.12.0
+832 INFO: Platform: Windows-10-10.0.19045-SP0
+833 INFO: Python environment: C:\Users\JOSHI\Documents\Py\pythonProject\.venv
+835 INFO: wrote C:\Users\JOSHI\Documents\Py\pythonProject\AssistProject\StopWatch\StopWatchQt.spec
+860 INFO: Module search paths (PYTHONPATH):
+['C:\\Users\\JOSHI\\Documents\\Py\\pythonProject\\.venv\\Scripts\\pyinstaller.exe',
+ 'C:\\Users\\JOSHI\\AppData\\Local\\Programs\\Python\\Python312\\python312.zip',
+ 'C:\\Users\\JOSHI\\AppData\\Local\\Programs\\Python\\Python312\\DLLs',
+ 'C:\\Users\\JOSHI\\AppData\\Local\\Programs\\Python\\Python312\\Lib',
+ 'C:\\Users\\JOSHI\\AppData\\Local\\Programs\\Python\\Python312',
+ 'C:\\Users\\JOSHI\\Documents\\Py\\pythonProject\\.venv',
+ 'C:\\Users\\JOSHI\\Documents\\Py\\pythonProject\\.venv\\Lib\\site-packages',
+ 'C:\\Users\\JOSHI\\Documents\\Py\\pythonProject\\.venv\\Lib\\site-packages\\win32',
+ 'C:\\Users\\JOSHI\\Documents\\Py\\pythonProject\\.venv\\Lib\\site-packages\\win32\\lib',
+ 'C:\\Users\\JOSHI\\Documents\\Py\\pythonProject\\.venv\\Lib\\site-packages\\Pythonwin',
+ 'C:\\Users\\JOSHI\\Documents\\Py\\pythonProject\\.venv\\Lib\\site-packages\\setuptools\\_vendor',
+ 'C:\\Users\\JOSHI\\Documents\\Py\\pythonProject\\AssistProject\\StopWatch']
+pygame 2.6.1 (SDL 2.28.4, Python 3.12.0)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+2287 INFO: checking Analysis
+2288 INFO: Building Analysis because Analysis-00.toc is non existent
+2288 INFO: Running Analysis Analysis-00.toc
+2288 INFO: Target bytecode optimization level: 0
+2289 INFO: Initializing module dependency graph...
+2293 INFO: Initializing module graph hook caches...
+2499 INFO: Analyzing modules for base_library.zip ...
+4693 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\\JOSHI\\Documents\\Py\\pythonProject\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+7858 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\JOSHI\\Documents\\Py\\pythonProject\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+9692 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\JOSHI\\Documents\\Py\\pythonProject\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+10577 INFO: Caching module dependency graph...
+10687 INFO: Looking for Python shared library...
+10710 INFO: Using Python shared library: C:\Users\JOSHI\AppData\Local\Programs\Python\Python312\python312.dll
+10711 INFO: Analyzing C:\Users\JOSHI\Documents\Py\pythonProject\AssistProject\StopWatch\StopWatchQt.py
+10728 INFO: Processing standard module hook 'hook-PyQt5.py' from 'C:\\Users\\JOSHI\\Documents\\Py\\pythonProject\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+12302 INFO: Processing standard module hook 'hook-PyQt5.QtWidgets.py' from 'C:\\Users\\JOSHI\\Documents\\Py\\pythonProject\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+13579 INFO: Processing standard module hook 'hook-PyQt5.QtCore.py' from 'C:\\Users\\JOSHI\\Documents\\Py\\pythonProject\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+14846 INFO: Processing standard module hook 'hook-PyQt5.QtGui.py' from 'C:\\Users\\JOSHI\\Documents\\Py\\pythonProject\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+15919 INFO: Processing standard module hook 'hook-PyQt5.QtMultimedia.py' from 'C:\\Users\\JOSHI\\Documents\\Py\\pythonProject\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+16523 INFO: Processing standard module hook 'hook-PyQt5.QtNetwork.py' from 'C:\\Users\\JOSHI\\Documents\\Py\\pythonProject\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+17652 INFO: Processing module hooks (post-graph stage)...
+17705 WARNING: Hidden import "sip" not found!
+17869 INFO: Performing binary vs. data reclassification (126 entries)
+18206 INFO: Looking for ctypes DLLs
+18367 INFO: Analyzing run-time hooks ...
+18379 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Users\\JOSHI\\Documents\\Py\\pythonProject\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+18394 INFO: Including run-time hook 'pyi_rth_pyqt5.py' from 'C:\\Users\\JOSHI\\Documents\\Py\\pythonProject\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+18403 INFO: Processing pre-find-module-path hook 'hook-_pyi_rth_utils.py' from 'C:\\Users\\JOSHI\\Documents\\Py\\pythonProject\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+18415 INFO: Processing standard module hook 'hook-_pyi_rth_utils.py' from 'C:\\Users\\JOSHI\\Documents\\Py\\pythonProject\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+18428 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'C:\\Users\\JOSHI\\Documents\\Py\\pythonProject\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+18456 INFO: Creating base_library.zip...
+18778 INFO: Looking for dynamic libraries
+19430 INFO: Extra DLL search directories (AddDllDirectory): ['C:\\Users\\JOSHI\\Documents\\Py\\pythonProject\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin']
+19433 INFO: Extra DLL search directories (PATH): ['C:\\Users\\JOSHI\\Documents\\Py\\pythonProject\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin']
+24328 INFO: Warnings written to C:\Users\JOSHI\Documents\Py\pythonProject\AssistProject\StopWatch\build\StopWatchQt\warn-StopWatchQt.txt
+24422 INFO: Graph cross-reference written to C:\Users\JOSHI\Documents\Py\pythonProject\AssistProject\StopWatch\build\StopWatchQt\xref-StopWatchQt.html
+24528 INFO: checking PYZ
+24529 INFO: Building PYZ because PYZ-00.toc is non existent
+24530 INFO: Building PYZ (ZlibArchive) C:\Users\JOSHI\Documents\Py\pythonProject\AssistProject\StopWatch\build\StopWatchQt\PYZ-00.pyz
+26938 INFO: Building PYZ (ZlibArchive) C:\Users\JOSHI\Documents\Py\pythonProject\AssistProject\StopWatch\build\StopWatchQt\PYZ-00.pyz completed successfully.
+27207 INFO: checking PKG
+27210 INFO: Building PKG because PKG-00.toc is non existent
+27212 INFO: Building PKG (CArchive) StopWatchQt.pkg
+55822 INFO: Building PKG (CArchive) StopWatchQt.pkg completed successfully.
+55833 INFO: Bootloader C:\Users\JOSHI\Documents\Py\pythonProject\.venv\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\run.exe
+55834 INFO: checking EXE
+55834 INFO: Building EXE because EXE-00.toc is non existent
+55835 INFO: Copying bootloader EXE to C:\Users\JOSHI\Documents\Py\pythonProject\AssistProject\StopWatch\dist\StopWatchQt.exe
+55844 INFO: Copying icon to EXE
+55853 INFO: Copying 0 resources to EXE
+55855 INFO: Embedding manifest in EXE
+55860 INFO: Appending PKG archive to EXE
+56058 INFO: Fixing EXE headers
+56631 INFO: Building EXE from EXE-00.toc completed successfully.
+56644 INFO: Build complete! The results are available in: C:\Users\JOSHI\Documents\Py\pythonProject\AssistProject\StopWatch\dist
+(.venv) PS C:\Users\JOSHI\Documents\Py\pythonProject\AssistProject\StopWatch> pyinstaller --onefile --windowed --icon=icon.ico StopWatchQt.py
+713 INFO: PyInstaller: 6.14.1, contrib hooks: 2025.5
+715 INFO: Python: 3.12.0
+820 INFO: Platform: Windows-10-10.0.19045-SP0
+820 INFO: Python environment: C:\Users\JOSHI\Documents\Py\pythonProject\.venv
+822 INFO: wrote C:\Users\JOSHI\Documents\Py\pythonProject\AssistProject\StopWatch\StopWatchQt.spec
+853 INFO: Module search paths (PYTHONPATH):
+['C:\\Users\\JOSHI\\Documents\\Py\\pythonProject\\.venv\\Scripts\\pyinstaller.exe',
+ 'C:\\Users\\JOSHI\\AppData\\Local\\Programs\\Python\\Python312\\python312.zip',
+ 'C:\\Users\\JOSHI\\AppData\\Local\\Programs\\Python\\Python312\\DLLs',
+ 'C:\\Users\\JOSHI\\AppData\\Local\\Programs\\Python\\Python312\\Lib',
+ 'C:\\Users\\JOSHI\\AppData\\Local\\Programs\\Python\\Python312',
+ 'C:\\Users\\JOSHI\\Documents\\Py\\pythonProject\\.venv',
+ 'C:\\Users\\JOSHI\\Documents\\Py\\pythonProject\\.venv\\Lib\\site-packages',
+ 'C:\\Users\\JOSHI\\Documents\\Py\\pythonProject\\.venv\\Lib\\site-packages\\win32',
+ 'C:\\Users\\JOSHI\\Documents\\Py\\pythonProject\\.venv\\Lib\\site-packages\\win32\\lib',
+ 'C:\\Users\\JOSHI\\Documents\\Py\\pythonProject\\.venv\\Lib\\site-packages\\Pythonwin',
+ 'C:\\Users\\JOSHI\\Documents\\Py\\pythonProject\\.venv\\Lib\\site-packages\\setuptools\\_vendor',
+ 'C:\\Users\\JOSHI\\Documents\\Py\\pythonProject\\AssistProject\\StopWatch']
+pygame 2.6.1 (SDL 2.28.4, Python 3.12.0)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+2254 INFO: checking Analysis
+2382 INFO: checking PYZ
+2432 INFO: checking PKG
+2457 INFO: Bootloader C:\Users\JOSHI\Documents\Py\pythonProject\.venv\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+2458 INFO: checking EXE
+2465 INFO: Building because console changed
+2466 INFO: Building EXE from EXE-00.toc
+2468 INFO: Copying bootloader EXE to C:\Users\JOSHI\Documents\Py\pythonProject\AssistProject\StopWatch\dist\StopWatchQt.exe
+2478 INFO: Copying icon to EXE
+2486 INFO: Copying 0 resources to EXE
+2486 INFO: Embedding manifest in EXE
+2494 INFO: Appending PKG archive to EXE
+2603 INFO: Fixing EXE headers
+2944 INFO: Building EXE from EXE-00.toc completed successfully.
+2953 INFO: Build complete! The results are available in: C:\Users\JOSHI\Documents\Py\pythonProject\AssistProject\StopWatch\dist
+(.venv) PS C:\Users\JOSHI\Documents\Py\pythonProject\AssistProject\StopWatch>
